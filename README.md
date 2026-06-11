@@ -181,5 +181,7 @@ Aplicativo mobile para usuários finais.
 
 ## 👥 Equipe
 Enzo Posterlli Strinta - RM570035
+
 Giovanna Tristão Lopes - RM572552
+
 Vinicius Brito Davi - RM569709
