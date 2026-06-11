@@ -55,9 +55,7 @@ Simulação das principais mensagens do protocolo Open Charge Point Protocol (OC
 # 🏗 Arquitetura do Sistema
 
 ┌──────────────────────────────┐
-
 │         Operador             │
-
 └──────────────┬───────────────┘
                │
                ▼
@@ -118,13 +116,15 @@ Geração de Recibo
          ▼
 Relatório Gerencial
 
-⚙️ Configurações do Sistema
+# ⚙️ Configurações do Sistema
+
 As principais variáveis podem ser ajustadas diretamente no código:
 POTENCIA_NOMINAL_VAGA = 7.0      # kW por carregador
 LIMITE_POTENCIA_HUB = 15.0       # Potência máxima da estação
 TARIFA_BASE_COMERCIAL = 0.80     # R$/kWh
 
-🚀 Como Executar
+# 🚀 Como Executar
+
 Pré-requisitos:
 - Python 3.8 ou superior
 - Clonar o Repositório:
@@ -133,15 +133,8 @@ Pré-requisitos:
 - Executar:
   python codigo.py
 
-📋 Menu do Sistema
-Ao iniciar, o sistema apresenta as seguintes opções:
-[1] Conectar Veículo
-[2] Exibir Monitoramento e IA
-[3] Simular Ciclo de Recarga
-[4] Encerrar Sessão
-[5] Emitir Relatório e Encerrar
+# 🧠 Inteligência Artificial Aplicada
 
-🧠 Inteligência Artificial Aplicada
 O módulo de IA simula funcionalidades encontradas em plataformas modernas de gestão energética:
 
 Análise Operacional:
@@ -156,7 +149,7 @@ Recomendações:
 - Sugestão de horários de menor demanda.
 - Otimização do consumo energético.
 
-🔗 Materiais Técnicos Relevantes
+# 🔗 Materiais Técnicos Relevantes
 
 Protocolo OCPP 1.6J
 Protocolo aberto utilizado para comunicação entre carregadores e sistemas centrais de gerenciamento.
@@ -172,13 +165,14 @@ Conceitos Utilizados
 - NLP (Natural Language Processing): utilizado para traduzir métricas operacionais em informações compreensíveis para gestores.
 - IA Preditiva: empregada para gerar alertas e recomendações operacionais com base no estado atual da estação.
 
-📈 Possíveis Evoluções
-Interface Web.
-Dashboard em tempo real.
-Banco de dados para persistência das sessões.
-Integração com APIs reais de carregadores.
-Machine Learning para previsão de demanda.
-Integração com geração fotovoltaica e sistemas de armazenamento.
+# 📈 Possíveis Evoluções
+
+- Interface Web.
+- Dashboard em tempo real.
+- Banco de dados para persistência das sessões.
+- Integração com APIs reais de carregadores.
+- Machine Learning para previsão de demanda.
+- Integração com geração fotovoltaica e sistemas de armazenamento.
 Aplicativo mobile para usuários finais.
 
 👥 Equipe
