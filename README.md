@@ -1,6 +1,6 @@
 # REECHARGE – Sistema Inteligente de Gestão de Recarga para Veículos Elétricos
 
-# 📖 Descrição da Solução
+## 📖 Descrição da Solução
 
 O REECHARGE é um sistema de gerenciamento inteligente para estações de recarga de veículos elétricos voltado ao ambiente comercial.
 A solução simula a operação de um hub de carregamento com múltiplas vagas, incorporando funcionalidades de:
@@ -13,7 +13,7 @@ A solução simula a operação de um hub de carregamento com múltiplas vagas, 
   
 O objetivo do sistema é maximizar a eficiência energética da estação, evitar sobrecargas na infraestrutura elétrica e fornecer informações estratégicas para operadores e gestores.
 
-# 🎯 Principais Funcionalidades
+## 🎯 Principais Funcionalidades
 
 🔌 Gestão de Recargas
 
@@ -114,14 +114,14 @@ J --> K
 K --> L
 ```
 
-# ⚙️ Configurações do Sistema
+## ⚙️ Configurações do Sistema
 
 As principais variáveis podem ser ajustadas diretamente no código:
 POTENCIA_NOMINAL_VAGA = 7.0      # kW por carregador
 LIMITE_POTENCIA_HUB = 15.0       # Potência máxima da estação
 TARIFA_BASE_COMERCIAL = 0.80     # R$/kWh
 
-# 🚀 Como Executar
+## 🚀 Como Executar
 
 Pré-requisitos:
 - Python 3.8 ou superior
@@ -131,7 +131,7 @@ Pré-requisitos:
 - Executar:
   python codigo.py
 
-# 🧠 Inteligência Artificial Aplicada
+## 🧠 Inteligência Artificial Aplicada
 
 O módulo de IA simula funcionalidades encontradas em plataformas modernas de gestão energética:
 
@@ -147,7 +147,7 @@ Recomendações:
 - Sugestão de horários de menor demanda.
 - Otimização do consumo energético.
 
-# 🔗 Materiais Técnicos Relevantes
+## 🔗 Materiais Técnicos Relevantes
 
 Protocolo OCPP 1.6J
 Protocolo aberto utilizado para comunicação entre carregadores e sistemas centrais de gerenciamento.
@@ -163,7 +163,7 @@ Conceitos Utilizados
 - NLP (Natural Language Processing): utilizado para traduzir métricas operacionais em informações compreensíveis para gestores.
 - IA Preditiva: empregada para gerar alertas e recomendações operacionais com base no estado atual da estação.
 
-# 📈 Possíveis Evoluções
+## 📈 Possíveis Evoluções
 
 - Interface Web.
 - Dashboard em tempo real.
@@ -173,7 +173,7 @@ Conceitos Utilizados
 - Integração com geração fotovoltaica e sistemas de armazenamento.
 Aplicativo mobile para usuários finais.
 
-👥 Equipe
+##👥 Equipe
 Enzo Posterlli Strinta - RM570035
 Giovanna Tristão Lopes - RM572552
 Vinicius Brito Davi - RM569709
