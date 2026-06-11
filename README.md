@@ -79,7 +79,8 @@ Simulação das principais mensagens do protocolo Open Charge Point Protocol (OC
 │ OCPP   │ │ IA/NLP │ │ Relatórios │
 └────────┘ └────────┘ └────────────┘
 
-🔄 Fluxo de Operação
+# 🔄 Fluxo de Operação
+
 Inicialização do Hub
          │
          ▼
