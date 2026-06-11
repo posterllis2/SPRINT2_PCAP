@@ -52,69 +52,67 @@ Simulação das principais mensagens do protocolo Open Charge Point Protocol (OC
 - Receita gerada por sessão.
 - Faturamento consolidado da estação.
 
-# 🏗 Arquitetura do Sistema
+## 🏗 Arquitetura do Sistema
 
-┌──────────────────────────────┐
-│         Operador             │
-└──────────────┬───────────────┘
-               │
-               ▼
-┌──────────────────────────────┐
-│  Interface Console Python    │
-└──────────────┬───────────────┘
-               │
-               ▼
-┌──────────────────────────────┐
-│   Motor de Gerenciamento     │
-│                              │
-│ • Gestão de Vagas            │
-│ • Smart Charging             │
-│ • Tarifação Dinâmica         │
-│ • Controle de Sessões        │
-└──────────────┬───────────────┘
-               │
-     ┌─────────┼─────────┐
-     ▼         ▼         ▼
-┌────────┐ ┌────────┐ ┌────────────┐
-│ OCPP   │ │ IA/NLP │ │ Relatórios │
-└────────┘ └────────┘ └────────────┘
+```mermaid
+flowchart TD
 
-# 🔄 Fluxo de Operação
+A[Operador]
+B[Interface Console Python]
+C[Motor de Gerenciamento]
 
-Inicialização do Hub
-         │
-         ▼
-BootNotification (OCPP)
-         │
-         ▼
-Conexão de Veículo
-         │
-         ▼
-StartTransaction
-         │
-         ▼
-Controle Inteligente de Potência
-         │
-         ▼
-Monitoramento + IA
-         │
-         ▼
-Processo de Recarga
-         │
-         ▼
-MeterValues
-         │
-         ▼
-Encerramento da Sessão
-         │
-         ▼
-StopTransaction
-         │
-         ▼
-Geração de Recibo
-         │
-         ▼
-Relatório Gerencial
+D[Gestão de Vagas]
+E[Smart Charging]
+F[Tarifação Dinâmica]
+G[Controle de Sessões]
+
+H[OCPP]
+I[IA / NLP]
+J[Relatórios]
+
+A --> B
+B --> C
+
+C --> D
+C --> E
+C --> F
+C --> G
+
+C --> H
+C --> I
+C --> J
+```
+
+## 🔄 Fluxo de Operação
+
+```mermaid
+flowchart TD
+
+A[Inicialização do Hub]
+B[BootNotification]
+C[Conexão de Veículo]
+D[StartTransaction]
+E[Controle Inteligente de Potência]
+F[Monitoramento + IA]
+G[Processo de Recarga]
+H[MeterValues]
+I[Encerramento da Sessão]
+J[StopTransaction]
+K[Geração de Recibo]
+L[Relatório Gerencial]
+
+A --> B
+B --> C
+C --> D
+D --> E
+E --> F
+F --> G
+G --> H
+H --> I
+I --> J
+J --> K
+K --> L
+```
 
 # ⚙️ Configurações do Sistema
 
