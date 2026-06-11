@@ -1,6 +1,6 @@
 # REECHARGE – Sistema Inteligente de Gestão de Recarga para Veículos Elétricos
 
-📖 Descrição da Solução
+# 📖 Descrição da Solução
 
 O REECHARGE é um sistema de gerenciamento inteligente para estações de recarga de veículos elétricos voltado ao ambiente comercial.
 A solução simula a operação de um hub de carregamento com múltiplas vagas, incorporando funcionalidades de:
