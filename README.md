@@ -135,7 +135,7 @@ TARIFA_BASE_COMERCIAL = 0.80     # R$/kWh
 Pré-requisitos:
 - Python 3.8 ou superior
 - Clonar o Repositório:
-  git clone https://github.com/seu-usuario/reecharge.git
+  git clone [https://github.com/seu-usuario/reecharge.git](https://github.com/posterllis2/SPRINT2_PCAP/tree/main)
   cd reecharge
 - Executar:
   python codigo.py
