@@ -117,8 +117,11 @@ K --> L
 ## ⚙️ Configurações do Sistema
 
 As principais variáveis podem ser ajustadas diretamente no código:
+
 POTENCIA_NOMINAL_VAGA = 7.0      # kW por carregador
+
 LIMITE_POTENCIA_HUB = 15.0       # Potência máxima da estação
+
 TARIFA_BASE_COMERCIAL = 0.80     # R$/kWh
 
 ## 🚀 Como Executar
