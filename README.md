@@ -20,16 +20,19 @@ O objetivo do sistema é maximizar a eficiência energética da estação, evita
 - Cadastro de veículos em vagas de carregamento.
 - Controle do estado de carga (SOC).
 - Simulação do processo completo de recarga.
+  
 
 ⚡ Smart Charging
 
 - Distribuição automática da potência disponível entre os veículos conectados.
 - Prevenção de sobrecarga quando a demanda excede a capacidade do hub.
 
+
 💰 Tarifação Dinâmica
 
 - Aplicação automática de tarifas diferenciadas em horários de pico.
 - Cálculo do custo total da sessão de recarga.
+
 
 🤖 Inteligência Artificial
 
@@ -38,6 +41,7 @@ O objetivo do sistema é maximizar a eficiência energética da estação, evita
 - Alertas preditivos de saturação da infraestrutura.
 - Recomendações de horários mais eficientes para recarga.
 
+
 🌐 Comunicação OCPP
 
 Simulação das principais mensagens do protocolo Open Charge Point Protocol (OCPP):
@@ -45,12 +49,14 @@ Simulação das principais mensagens do protocolo Open Charge Point Protocol (OC
 - StartTransaction
 - MeterValues
 - StopTransaction
+
   
 📊 Relatórios Gerenciais
 
 - Energia total fornecida.
 - Receita gerada por sessão.
 - Faturamento consolidado da estação.
+
 
 ## 🏗 Arquitetura do Sistema
 
