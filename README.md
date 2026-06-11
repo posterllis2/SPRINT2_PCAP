@@ -55,7 +55,9 @@ Simulação das principais mensagens do protocolo Open Charge Point Protocol (OC
 # 🏗 Arquitetura do Sistema
 
 ┌──────────────────────────────┐
+
 │         Operador             │
+
 └──────────────┬───────────────┘
                │
                ▼
